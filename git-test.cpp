@@ -6,4 +6,5 @@ int main()
     int a;
     std::cout << "hello";
     std::cin >> a;
+    std::cout << "nihao";
 }
