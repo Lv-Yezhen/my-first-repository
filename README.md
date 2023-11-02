@@ -44,3 +44,4 @@ python3 -m grpc_tools.protoc -I=./ --python_out=./ --grpc_python_out=./ ./pubsub
 ```
 
 准备工作完成,分别运行客户端和服务端即可通信
+![](图片.png)
