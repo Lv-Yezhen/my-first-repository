@@ -45,3 +45,8 @@ python3 -m grpc_tools.protoc -I=./ --python_out=./ --grpc_python_out=./ ./pubsub
 
 准备工作完成,分别运行客户端和服务端即可通信
 ![](图片.png)
+
+我将自己的配置好grpc环境的docker镜像打包上docker hub了,可以通过以下指令拉取
+```
+docker pull lvyezhen/img:grpc_env
+```
